@@ -33,7 +33,10 @@ p {
 
 ## Selectores CSS
 
+Los selectores CSS se usan para *__encontrar__* (o seleccionar) elementos HTML basados en su nombre de elemento, id, clase, atributo y más.
+
 #### Selector - Elemento
+
 
 #### Selector - ID
 
