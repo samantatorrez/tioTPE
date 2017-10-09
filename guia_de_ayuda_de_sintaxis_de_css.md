@@ -18,6 +18,8 @@ El selector **apunta** al elemento HTML que desea diseñar.
 
 El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
 
+![alt text](https://www.w3schools.com/css/selector.gif "CSS selectors")
+
 Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
 Una declaración CSS siempre termina con un punto y coma, y los bloques de declaración están rodeados por llaves.
 
