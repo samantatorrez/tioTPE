@@ -33,7 +33,19 @@ p {
 
 ## Selectores CSS
 
+Los selectores CSS se usan para *__encontrar__* (o seleccionar) elementos HTML basados en su nombre de elemento, id, clase, atributo y más.
+
 #### Selector - Elemento
+
+El **selector de elementos** selecciona elementos basados en el *nombre* del elemento.
+Por ejemplo, puede seleccionar todos los elementos `<h1>` en una página de esta manera (en este caso, todos los elementos `<h1>` estarán alineados a la izquierda, con un tamaño de letra de 25px):
+
+```css
+h1 {
+     text-align: left;
+     font-size: 25px;
+}
+```
 
 #### Selector - ID
 
