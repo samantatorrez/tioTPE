@@ -1,4 +1,4 @@
-# Guía de ayuda de sintaxis de CSS
+﻿## Guía de ayuda de sintaxis de Css
 
 Autores:
   - Fournier Antonela
@@ -8,14 +8,42 @@ Autores:
 
 ## Sintaxis CSS
 
+Un conjunto de reglas CSS consiste en un *selector* y un *bloque de declaración*:
+
+##### Selector CSS
+
+El selector **apunta** al elemento HTML que desea diseñar.
+
+##### Bloque de declaración
+
+El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
+
+![alt text](https://www.w3schools.com/css/selector.gif "CSS selectors")
+
+Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
+Una declaración CSS siempre termina con un punto y coma, y los bloques de declaración están rodeados por llaves.
+
+En el ejemplo siguiente, todos los elementos `<p>` estarán alineados en el centro, con un color de texto rojo:
+```css
+p {
+     color: rojo;
+     text-align: center;
+}
+```
+
 ## Selectores CSS
 
-### Selector - Elemento
+#### Selector - Elemento
 
-### Selector - ID
+#### Selector - ID
 
-### Selector - Clases
+#### Selector - Clases
 
-### Selector - Agrupaciones
+#### Selector - Agrupaciones
 
 ## Comentarios CSS
+
+## Bibliografía 
+[w3schools.com/](https://www.w3schools.com/)
+[developer.mozilla.org/](https://developer.mozilla.org/)
+[en.wikipedia.org/wiki/](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
