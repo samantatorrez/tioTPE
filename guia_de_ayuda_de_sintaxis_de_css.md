@@ -81,6 +81,12 @@ p.center {
     color: rojo;
 } 
 ```
+Los elementos HTML también pueden referirse a **más** de una clase.
+En el siguiente ejemplo, el elemento `<p>` se denominará según `class = "center"` y `class = "large"`:
+```html
+<p class="center large"> Este párrafo hace referencia a dos clases. </p>
+```
+***Nota***: *¡Un nombre de clase no puede comenzar con un número!*	
 
 #### Selector - Agrupaciones
 
