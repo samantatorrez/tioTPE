@@ -49,6 +49,19 @@ h1 {
 
 #### Selector - ID
 
+El selector id utiliza el atributo id de un elemento HTML para seleccionar un elemento específico.
+El id de un elemento debe ser único dentro de una página, por lo que el selector id se utiliza para seleccionar un **único elemento**!
+Para seleccionar un elemento con un identificador específico, se escribe un carácter hash (#) seguido del id del elemento.
+La regla de estilo siguiente se aplicará al elemento HTML con id = "para1":
+
+```css
+#para1 {
+    text-align: center;
+    color: rojo;
+}
+```
+***Nota***: *¡Un nombre de identificación no puede comenzar con un número!*
+
 #### Selector - Clases
 
 #### Selector - Agrupaciones
