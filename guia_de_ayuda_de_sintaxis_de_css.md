@@ -73,8 +73,24 @@ En el ejemplo siguiente, todos los elementos HTML con `class = center` estarán 
     color: rojo;
 } 
 ```
+También puede especificar que sólo los **elementos HTML específicos** deben verse afectados por una clase.
+En el ejemplo siguiente, sólo los elementos `<p>` con `class = center` estarán alineados en el centro:
+```css
+p.center {
+    text-align: center;
+    color: rojo;
+} 
+```
+Los elementos HTML también pueden referirse a **más** de una clase.
+En el siguiente ejemplo, el elemento `<p>` se denominará según `class = "center"` y `class = "large"`:
+```html
+<p class="center large"> Este párrafo hace referencia a dos clases. </p>
+```
+***Nota***: *¡Un nombre de clase no puede comenzar con un número!*	
 
 #### Selector - Agrupaciones
+
+
 
 ## Comentarios CSS
 
