@@ -73,8 +73,18 @@ En el ejemplo siguiente, todos los elementos HTML con `class = center` estarán 
     color: rojo;
 } 
 ```
+También puede especificar que sólo los **elementos HTML específicos** deben verse afectados por una clase.
+En el ejemplo siguiente, sólo los elementos `<p>` con `class = center` estarán alineados en el centro:
+```css
+p.center {
+    text-align: center;
+    color: rojo;
+} 
+```
 
 #### Selector - Agrupaciones
+
+
 
 ## Comentarios CSS
 
