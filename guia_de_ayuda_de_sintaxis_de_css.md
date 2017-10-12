@@ -89,7 +89,21 @@ En el siguiente ejemplo, el elemento `<p>` se denominará según `class = "cente
 ***Nota***: *¡Un nombre de clase no puede comenzar con un número!*	
 
 #### Selector - Agrupaciones
+Si tienes elementos con la misma definicion de estilos, como por ejemplo:
+h1 {
+    text-align: center;
+    color: red;
+}
 
+h2 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    color: red;
+} 
 
 
 ## Comentarios CSS
