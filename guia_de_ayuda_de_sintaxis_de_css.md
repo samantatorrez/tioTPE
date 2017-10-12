@@ -105,6 +105,16 @@ p {
     color: red;
 } 
 
+Es mejor agrupar los selectores, para minimizar el codigo.
+
+Para agrupar selectores, separa cada selector con una coma.
+
+Ejemplo:
+
+h1, h2, p {
+    text-align: center;
+    color: red;
+} 
 
 ## Comentarios CSS
 
