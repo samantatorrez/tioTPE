@@ -93,6 +93,11 @@ En el siguiente ejemplo, el elemento `<p>` se denominará según `class = "cente
 
 
 ## Comentarios CSS
+Los comentarios son usados para explicar el codigo, y podrian ayudarte cuando editas el codigo luego de un tiempo de haberlo creado.
+
+Los comentarios son ignorados por los browsers.
+
+Un comentario CSS comienza con /* y termina con */. Los comentarios tambien pueden ocupar multiples lineas:
 
 ## Bibliografía 
 [w3schools.com/](https://www.w3schools.com/)
