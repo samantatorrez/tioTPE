@@ -117,6 +117,22 @@ h1, h2, p {
 } 
 
 ## Comentarios CSS
+Los comentarios son usados para explicar el codigo, y podrian ayudarte cuando editas el codigo luego de un tiempo de haberlo creado.
+
+Los comentarios son ignorados por los browsers.
+
+Un comentario CSS comienza con /* y termina con */. Los comentarios tambien pueden ocupar multiples lineas:
+
+Ejemplo
+p {
+    color: red;
+    /* Esto es un comentario de solo una linea */
+    text-align: center;
+}
+
+/* Estoe s
+un comentario
+multilinea */ 
 
 ## Bibliografía 
 [w3schools.com/](https://www.w3schools.com/)
