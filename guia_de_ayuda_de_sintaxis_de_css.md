@@ -90,6 +90,7 @@ En el siguiente ejemplo, el elemento `<p>` se denominará según `class = "cente
 
 #### Selector - Agrupaciones
 Si tienes elementos con la misma definicion de estilos, como por ejemplo:
+```css
 h1 {
     text-align: center;
     color: red;
@@ -104,18 +105,18 @@ p {
     text-align: center;
     color: red;
 } 
-
+```
 Es mejor agrupar los selectores, para minimizar el codigo.
 
 Para agrupar selectores, separa cada selector con una coma.
 
 Ejemplo:
-
+```css
 h1, h2, p {
     text-align: center;
     color: red;
 } 
-
+```
 ## Comentarios CSS
 Los comentarios son usados para explicar el codigo, y podrian ayudarte cuando editas el codigo luego de un tiempo de haberlo creado.
 
@@ -124,16 +125,16 @@ Los comentarios son ignorados por los browsers.
 Un comentario CSS comienza con /* y termina con */. Los comentarios tambien pueden ocupar multiples lineas:
 
 Ejemplo
+```css
 p {
     color: red;
     /* Esto es un comentario de solo una linea */
     text-align: center;
 }
-
 /* Estoe s
 un comentario
 multilinea */ 
-
+```
 ## Bibliografía 
 [w3schools.com/](https://www.w3schools.com/)
 [developer.mozilla.org/](https://developer.mozilla.org/)
